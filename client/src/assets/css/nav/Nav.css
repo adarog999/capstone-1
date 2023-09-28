@@ -1,0 +1,202 @@
+nav {
+    display: flex; 
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+    top: 0;
+    z-index: 10;
+ }
+ .nav-option {
+     display: flex;
+     justify-content: center;
+     font-family: 'Poppins', sans-serif;
+     gap: 20px;
+     margin-right: 20px;
+ }
+ .navChild {
+     display: flex; 
+     width: 100%;
+     max-width: 1300px;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 10px;
+     height: 80px;
+ }
+ .banner {
+     height: 70px;
+     width: 180px;
+     background-image: url(../../images/brand-logo.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .navChild ul  {
+     display: flex;
+ }
+ .navChild ul li {
+     list-style: none;
+     letter-spacing: 1.5px;
+     display: flex;
+     align-items: center;
+ }
+ .navChild ul li a {
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 10px;
+     border-radius: 5px;
+     border: 1px solid #fff;
+     letter-spacing: 1.5px;
+ }
+ .navChild ul li a:hover {
+    background-color: #103654;
+ }
+ .navChild ul li .isLogin {
+     display: flex;
+     gap: 15px;
+ }
+ .navChild  .isLogin a {
+     font-family: 'Poppins',sans-serif;
+     padding: 5px 20px;
+     letter-spacing: 2px;
+     border-radius: 30px;
+     border: 1px solid gray;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ .navChild .isLogin .login-btn {
+     border: none;
+     color: white;
+     
+ }
+ 
+ .navChild .isLogin .login-btn:hover {
+     background-color: #fff;
+     color: #5FA8D5;
+ }
+ .navChild .isLogin .login-btn:active {
+     background-color: #103654;
+     color: #5FA8D5;
+ }
+ .navChild .isLogin .login-btn span {
+     transform: rotate(180deg);
+     font-size: 20px;
+     margin-left: 5px;
+ }
+ .navChild .isLogin .signUp-btn {
+     border: none;
+     color: white;
+ }
+ .navChild .isLogin .signUp-btn span {
+     font-size: 20px;
+     margin-left: 5px;
+ }
+ .navChild .isLogin .signUp-btn:hover {
+     background-color: #fff;
+     color: #5FA8D5;
+ }
+ .navChild .isLogin .signUp-btn:active {
+     background-color: #5FA8D5;
+     color: #fff;
+ }
+.profile-btn-login {
+    background-color: transparent;    
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    position: relative;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.profile-btn-login div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.profile-btn-login div i {
+    font-size: 20px;
+}
+.profile-btn-login div span {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.profile-btn-login .angle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.drop-content {
+    position: absolute;
+    bottom: -10px;
+    transform: translateY(100%);
+    background-color: #FFFFFF;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+.drop-content .acc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background-color: #103654;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.drop-content .acc:hover {
+    background-color: #103654b7;
+}
+.drop-content .acc span {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.drop-content .acc i {
+    font-size: 15px;
+}
+.drop-content .logouts {
+    color: #fff;
+    padding: 5px 10px;    
+    border-radius: 5px;
+    background-color: #103654;
+    gap: 10px;
+}
+.drop-content .logouts:hover {
+    background-color: #103654aa;
+}
+.drop-content .logouts a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.drop-content .logouts i {
+    position: static;
+    font-size: 15px;
+}
+.drop-content .caret {
+    position: absolute;
+    top: -10px;
+    transform: rotate(30deg);
+}
+ @media only screen and (max-width: 830px) {
+     nav {
+         background-color: #103654;
+         border-bottom: 1px solid #fff;
+     }
+ }
+ 
+@keyframes nav {
+    
+}
+@media only screen and (max-width: 830px) {
+    nav {
+        background-color: #103654;
+        border-bottom: 1px solid #fff;
+    }
+}

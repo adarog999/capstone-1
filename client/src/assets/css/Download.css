@@ -1,0 +1,95 @@
+.download-container {
+    width: 100%;
+    height: 270px;
+    max-width: 900px;
+    margin: 100px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+}
+.download-container .down-txt {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+.download-container .down-txt h1 {
+    font-family: "Open sans",sans-serif;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.download-container .down-txt p {
+    font-family: "Work sans",sans-serif;
+}
+.download-container .down-txt .btns {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.download-container .down-txt .btns img {
+    width: 120px;
+    cursor: pointer;
+    transition:  all .3s;
+}
+.download-container .down-txt .btns img:hover {
+    transform: scale(1.1);
+}
+.download-container .down-txt .btns .img1{
+    width: 140px;
+    height: 60px;
+}
+.download-container .down-image {
+    width: 400px;
+    height: 350px;
+}
+.download-container .down-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.newsletter {
+    height: 150px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222727;
+    color: white;
+}
+.newsletter-text {
+    font-size: 30px;
+}
+.news-btn input, button {
+    margin: 0 8px;
+}
+.input-email {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    height: 40px;
+    padding: 0 10px;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+}
+
+.signupBtn {
+    border: 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

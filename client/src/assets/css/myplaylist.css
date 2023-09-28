@@ -1,0 +1,153 @@
+.my_play_list {
+    width: 97%;
+    border: 1px solid #fff;
+    height: calc(100% - (60px));
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header_playlist {
+    background-image: linear-gradient(to right,#AC15A1,#800BB1);
+    width: max-content;    
+    margin: 10px;
+    border-radius: 5px;
+}
+.header_playlist h1 {
+    font-family: "Poppins",sans-serif;
+    padding: 5px 20px;
+    letter-spacing: 1.5px;
+}
+.track_playlist {
+    overflow: scroll;
+    height: 90%;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+.myTrackList {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.myTrackList:hover {
+    background-color: #3f4e4fab;
+}
+.myTrackList .trackImage {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.myTrackList .trackImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.myTrackList .trackInfo .first{
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 1.5px;
+}
+.myTrackList .trackInfo .second {
+    font-family: "Work sans",sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.noTracks {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noTracks div span {
+  font-size: 30px;
+  font-family: "Poppins",sans-serif;
+  letter-spacing: 1.5px;
+}
+.noTracks div i {
+  font-size: 30px;
+  margin-left: 10px;
+}
+/*loader */
+.loader-par {
+    position: absolute;
+    background-color: #1f6d8c8f;
+    width: 100%;
+    height: calc(100% - (55px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.loaders {
+    animation: rotate 1s infinite;
+    height: 50px;
+    width: 50px;
+  }
+
+  .loaders:before,
+  .loaders:after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+  }
+  .loaders:before {
+    animation: ball1 1s infinite;
+    background-color: #E94560;
+    box-shadow: 30px 0 0 #ff3d00;
+    margin-bottom: 10px;
+  }
+  .loaders:after {
+    animation: ball2 1s infinite;
+    background-color: #393053;
+    box-shadow: 30px 0 0 #393053;
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg) scale(0.8) }
+    50% { transform: rotate(360deg) scale(1.2) }
+    100% { transform: rotate(720deg) scale(0.8) }
+  }
+
+  @keyframes ball1 {
+    0% {
+      box-shadow: 30px 0 0 #ff3d00;
+    }
+    50% {
+      box-shadow: 0 0 0 #ff3d00;
+      margin-bottom: 0;
+      transform: translate(15px, 15px);
+    }
+    100% {
+      box-shadow: 30px 0 0 #1F6E8C;
+      margin-bottom: 10px;
+    }
+  }
+
+  @keyframes ball2 {
+    0% {
+      box-shadow: 30px 0 0 #E94560;
+    }
+    50% {
+      box-shadow: 0 0 0 #E94560;
+      margin-top: -20px;
+      transform: translate(15px, 15px);
+    }
+    100% {
+      box-shadow: 30px 0 0 #850CAF;
+      margin-top: 0;
+    }
+  }
+
+/*loader */
+
+  

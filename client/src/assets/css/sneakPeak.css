@@ -1,0 +1,147 @@
+.sneakPeak {
+    width: 100%;
+    max-width: 1200px;
+    height: max-content;
+    margin: 30px auto;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+}
+.sneak-title {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: -15px;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 1.5px;
+}
+.sneak-title h1 {
+    font-weight: 800;
+}
+.sneakPeak .sneak-1 {
+    display: flex;    
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+}
+.sneak-container {
+    width: 100%;
+    height: 1250px;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+.sneak-picture {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/jenny.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sneak-description {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    width: 50%;
+    height: 230px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.sneak-picture2 {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/narcisso.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sneak-description2 {
+    margin: auto 0;
+    width: 50%;
+    height: 230px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.sneak-description2 p {
+    text-align: center;
+}
+.sneak-picture3 {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/maricar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sneak-description3 {
+    margin: auto 0;
+    width: 50%;
+    height: 230px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.sneak-description3 p {
+    text-align: center;
+}
+.sneak-picture4 {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/sb19.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sneak-description4 {
+    margin: auto 0;
+    width: 50%;
+    height: 230px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.sneak-description4 p {
+    text-align: center;
+}
+.sneak-picture5 {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/fredie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sneak-description5 {
+    margin: auto 0;
+    width: 50%;
+    height: 230px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.sneak-description5 p {
+    text-align: center;
+}

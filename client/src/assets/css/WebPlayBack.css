@@ -1,0 +1,18 @@
+.clicker {
+    position: absolute;
+    background-color: red;
+    z-index: 20;
+    right: 0;
+    margin-top: -120px;
+    width: 30px;
+}
+button {
+    background-color: red;
+}
+.spotify {
+    width: 50px !important;
+    
+}
+.player {
+    width: 50px;
+}

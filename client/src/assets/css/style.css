@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.s-card-list {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #171717;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.search-info {
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    width: 100%;
+    margin-right: 50px;
+}
+.s-card-list .image {
+    width: 95px;
+    height: 95px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.s-card-list .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.search-info  .txt h3 {
+    font-family: "Open sans",sans-serif;
+    letter-spacing: 1.5px;
+}
+.search-info  .txt p {
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+.search-info  .txt .list-date {
+    font-size: 14px;
+}
+.s-card-list .search-icon {
+    display: flex;
+    height: 100%;
+}
+.s-card-list .search-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+

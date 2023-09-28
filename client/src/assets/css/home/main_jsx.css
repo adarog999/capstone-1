@@ -1,0 +1,88 @@
+.add-play-i-btn {
+}
+.add-play-i-btn:hover {
+    background-color: #3F4E4F;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.box_where_to {
+    width: 420px;
+    height: max-content;
+    position: fixed;
+    z-index: 10;
+    background-color: #393053;
+    inset: 0;
+    margin: auto;    
+    top: -100px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.add-container {
+    height: 370px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding-bottom: 50px;
+}
+.add-head {
+    padding: 10px;
+}
+.add-head h1 {
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 1.5px;
+}
+.close_add_p {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.box_where_to .add-card {
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 95%;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box_where_to .add-card:hover {
+    background-color: #23232367;
+}
+.box_where_to .add-card span {
+    font-family: "Work sans",sans-serif;
+    letter-spacing: 1.5px;
+}
+.add-card .add-images {
+    width: 40px;
+    height: 40px;
+}
+.add-card .add-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.box_where_to .confirm{
+    height: 35px;
+    width: 90%;
+    margin: 0 auto;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    background-color: #1F6E8C;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.box_where_to .confirm:hover {
+    background-color: #3f4e4faa;
+}
